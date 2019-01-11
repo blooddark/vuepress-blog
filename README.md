@@ -1,6 +1,6 @@
 ---
 home: true
-#heroImage: /hero.png
+heroImage: /img/hero.jpg
 actionText: 博客 →
 actionLink: /blog/
 features:

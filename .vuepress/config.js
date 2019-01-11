@@ -2,36 +2,40 @@ module.exports = {
     title: 'Blog of Eddy',
     description: '不忘初心 方得始终 砥砺前行 终达彼岸',
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.ico' }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['link', { rel: 'icon', href: '/img/logo.jpg' }],
+        // ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+    evergreen: true,
     themeConfig: {
         nav: [
+            { text: '最新', link: '/blog/last' },
             { text: '主页', link: '/' },
-            { text: '博文', link: '/blog/',
+            { text: '博文',
                 items: [
                     { text: 'Python', link: '/blog/python/' },
+                    { text: 'Java', link: '/blog/Java/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]
             },
             { text: '关于', link: '/about/' },
             { text: 'Github', link: 'https://github.com/blooddark/' },
         ],
-        sidebar: {
-            '/android/': [
-                "",
-                "android1",
-            ],
-            "/ios/":[
-                "",
-                "ios1",
-            ],
-            "/web/":[
-                "",
-                "web1",
-            ],
-        },
+        sidebar: 'auto',
         sidebarDepth: 2,
         lastUpdated: 'Last Updated',
     },
+    markdown: {
+        lineNumbers: true
+    },
+    permalink: "/:year/:month/:day/:slug",
+    // plugins: ['@vuepress/active-header-links','@vuepress/back-to-top',
+    //     '@vuepress/last-updated',
+    //     {
+    //         transformer: (timestamp, lang) => {
+    //             // 不要忘了安装 moment
+    //             const moment = require('moment')
+    //             moment.locale(lang)
+    //             return moment(timestamp).fromNow()
+    //         }
+    //     }]
 }
