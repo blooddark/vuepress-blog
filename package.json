@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "bash deploy.sh"
+  },
+  "name": "blooddark.github.io",
+  "version": "1.0.0",
+  "dependencies": {}
+}
