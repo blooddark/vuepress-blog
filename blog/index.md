@@ -6,4 +6,5 @@ sidebar: false
 # [最新](last.html)
 # [Python](python/)
 # [Java](java/)
+# [Linux](linux/)
 # [日常](diary/)
