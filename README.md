@@ -10,5 +10,5 @@ features:
   details: 分享一些我用过的，或者是我找到的、正在用的学习资源。不止计算机相关。
 - title: My life
   details: 记录我的生活，一些事情，一些感触。
-#footer: MIT Licensed | Copyright © 2018-present Evan You
+#footer: Copyright © 2018-
 ---
