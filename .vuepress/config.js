@@ -13,7 +13,8 @@ module.exports = {
             { text: '博文',
                 items: [
                     { text: 'Python', link: '/blog/python/' },
-                    { text: 'Java', link: '/blog/Java/' },
+                    { text: 'Java', link: '/blog/java/' },
+                    { text: 'Linux', link: '/blog/linux/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]
             },
@@ -22,20 +23,23 @@ module.exports = {
         ],
         sidebar: 'auto',
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
     },
     markdown: {
         lineNumbers: true
     },
     permalink: "/:year/:month/:day/:slug",
-    // plugins: ['@vuepress/active-header-links','@vuepress/back-to-top',
-    //     '@vuepress/last-updated',
-    //     {
-    //         transformer: (timestamp, lang) => {
-    //             // 不要忘了安装 moment
-    //             const moment = require('moment')
-    //             moment.locale(lang)
-    //             return moment(timestamp).fromNow()
-    //         }
-    //     }]
+    plugins: [
+        ['@vuepress/active-header-links', true],
+        ['@vuepress/back-to-top', true],
+        ['@vuepress/last-updated',
+        {
+            transformer: (timestamp, lang) => {
+                // 不要忘了安装 moment
+                const moment = require('moment')
+                moment.locale(lang)
+                return moment(timestamp).fromNow()
+            }
+        }]
+    ]
 }
