@@ -3,7 +3,7 @@ title: 目录
 sidebar: false
 ---
 # 目录
-# [最新](last.html)
+# [最新](last.md)
 # [Python](python/)
 # [Java](java/)
 # [Linux](linux/)
