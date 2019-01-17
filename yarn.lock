@@ -7185,7 +7185,7 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress@^1.0.0-alpha.0:
+vuepress@^1.0.0-alpha.32:
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.0.0-alpha.32.tgz#db19e7af222e585de3bab060d8fc90a40cb8923a"
   integrity sha512-Yt5JZQPziZ/PwG348b6lpqYzwg9eaLBTlKSvSo6PLR0jj1YCNXoAM/8+/6dT3zT9sktXgMsizB9r22X3C0bi0w==

@@ -14,6 +14,7 @@ module.exports = {
                 items: [
                     { text: 'Python', link: '/blog/python/' },
                     { text: 'Java', link: '/blog/java/' },
+                    { text: 'Java-Spring-Data-Jpa', link: '/blog/java-spring-data-jpa/' },
                     { text: 'Linux', link: '/blog/linux/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]

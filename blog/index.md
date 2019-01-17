@@ -6,5 +6,6 @@ sidebar: false
 # [最新](last.md)
 # [Python](python/)
 # [Java](java/)
+# [Java-Spring-Data-Jpa](java-spring-data-jpa/)
 # [Linux](linux/)
 # [日常](diary/)

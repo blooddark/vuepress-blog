@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "dependencies": {
     "iview": "^3.2.2",
-    "vuepress": "^1.0.0-alpha.0"
+    "vuepress": "^1.0.0-alpha.32"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
