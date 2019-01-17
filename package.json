@@ -1,13 +1,20 @@
 {
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
     "deploy": "bash deploy.sh"
   },
   "name": "blooddark.github.io",
+  "description": "blog of Eddy",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "iview": "^3.2.2",
+    "vuepress": "^1.0.0-alpha.0"
+  },
   "devDependencies": {
-    "@vuepress/plugin-blog": "^1.0.0-alpha.0"
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
+    "moment": "^2.23.0"
   }
 }
