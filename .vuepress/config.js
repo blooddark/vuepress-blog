@@ -8,6 +8,7 @@ module.exports = {
     evergreen: true,
     themeConfig: {
         nav: [
+            { text: '支持', link: '/support/' },
             { text: '最新', link: '/blog/last' },
             { text: '主页', link: '/' },
             { text: '博文',
