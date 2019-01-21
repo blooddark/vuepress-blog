@@ -16,12 +16,17 @@ module.exports = {
                     { text: 'Java', link: '/blog/java/' },
                     { text: 'Java-Spring-Data-Jpa', link: '/blog/java-spring-data-jpa/' },
                     { text: 'Linux', link: '/blog/linux/' },
+                    { text: 'Docker', link: '/blog/docker/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]
             },
             { text: '关于', link: '/about/' },
             { text: 'Github', link: 'https://github.com/blooddark/' },
         ],
+        repo: 'blooddark/vuepress-blog',
+        repoLabel: '查看源码',
+        editLinks: true,
+        editLinkText: '帮助我改善此页面！',
         sidebar: 'auto',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
