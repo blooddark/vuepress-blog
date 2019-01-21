@@ -29,7 +29,7 @@ module.exports = {
         editLinkText: '帮助我改善此页面！',
         sidebar: 'auto',
         sidebarDepth: 2,
-        lastUpdated: '上次更新',
+        lastUpdated: false
     },
     plugins: [
         ['@vuepress/back-to-top', true],
