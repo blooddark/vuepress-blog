@@ -29,22 +29,21 @@ module.exports = {
         editLinks: true,
         editLinkText: '帮助我改善此页面！',
         sidebar: 'auto',
-        sidebarDepth: 2,
-        lastUpdated: false
+        sidebarDepth: 2
     },
     plugins: [
         ['@vuepress/back-to-top', true],
         ['@vuepress/active-header-links', true],
-        ['@vuepress/last-updated',
-            {
-                transformer: (timestamp, lang) => {
-                    // 不要忘了安装 moment
-                    // const moment = require('moment')
-                    // moment.locale('zh-cn')
-                    // return moment(timestamp).fromNow()
-                    return new Date(timestamp).format('yyyy-MM-dd hh:mm:ss')
-                }
-            }]
+        // ['@vuepress/last-updated',
+        //     {
+        //         transformer: (timestamp, lang) => {
+        //             // 不要忘了安装 moment
+        //             // const moment = require('moment')
+        //             // moment.locale('zh-cn')
+        //             // return moment(timestamp).fromNow()
+        //             return new Date(timestamp).format('yyyy-MM-dd hh:mm:ss')
+        //         }
+        //     }]
     ],
     markdown: {
         lineNumbers: true
