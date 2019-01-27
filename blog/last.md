@@ -3,7 +3,7 @@ sidebar: false
 ---
 # 最新
 
-## [运行和控制Nginx](nginx/3.md)
+## [运行和控制Nginx[nginx]](nginx/3.md)
 ## [Nginx安装 (CentOS 7.3)[nginx]](nginx/2.md)
 ## [为什么选择 Nginx[nginx]](nginx/1.md)
 ## [Windows中，使用VNC远程连接Docker中的镜像桌面系统[docker]](docker/4.md)
