@@ -18,6 +18,7 @@ module.exports = {
                     { text: 'Java-Spring-Data-Jpa', link: '/blog/java-spring-data-jpa/' },
                     { text: 'Linux', link: '/blog/linux/' },
                     { text: 'Docker', link: '/blog/docker/' },
+                    { text: 'Nginx', link: '/blog/nginx/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]
             },

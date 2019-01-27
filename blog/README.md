@@ -10,4 +10,5 @@ sidebar: false
 # [Java-Spring-Data-Jpa](java-spring-data-jpa/)
 # [Linux](linux/)
 # [Docker](docker/)
+# [Nginx](nginx/)
 # [日常](diary/)

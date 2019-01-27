@@ -3,6 +3,9 @@ sidebar: false
 ---
 # 最新
 
+## [运行和控制Nginx](nginx/3.md)
+## [Nginx安装 (CentOS 7.3)[nginx]](nginx/2.md)
+## [为什么选择 Nginx[nginx]](nginx/1.md)
 ## [Windows中，使用VNC远程连接Docker中的镜像桌面系统[docker]](docker/4.md)
 ## [使用Dockerfile快速创建环境[docker]](docker/3.md)
 ## [Docker常用命令[docker]](docker/2.md)
