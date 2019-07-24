@@ -3,6 +3,7 @@ sidebar: false
 ---
 # 最新
 
+## [在Maven和Gradle项目中使用Nexus[java]](java/2.md)
 ## [使用Nexus搭建Maven私服[java]](java/1.md)
 ## [Nginx Cookbook 分享[nginx]](nginx/4.md)
 ## [运行和控制Nginx[nginx]](nginx/3.md)
