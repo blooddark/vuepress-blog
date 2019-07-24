@@ -6,8 +6,14 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/logo.jpg' }],
         // ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     evergreen: true,
     themeConfig: {
+        lastUpdated: '上次更新', // string | boolean
         nav: [
             { text: '支持', link: '/support/' },
             { text: '最新', link: '/blog/last' },
@@ -31,7 +37,68 @@ module.exports = {
         editLinks: true,
         editLinkText: '帮助我改善此页面！',
         sidebar: 'auto',
-        sidebarDepth: 2
+        sidebar: [
+            '/',
+            '/blog/',
+            {
+                title: '日常',
+                children: [
+                    '/blog/diary/',
+                    '/blog/diary/2',
+                    '/blog/diary/1',
+                ]
+            },
+            {
+                title: 'Docker',
+                children: [
+                    '/blog/docker/',
+                    '/blog/docker/4',
+                    '/blog/docker/3',
+                    '/blog/docker/2',
+                    '/blog/docker/1',
+                ]
+            },
+            {
+                title: 'Java',
+                children: [
+                    '/blog/java/',
+                    '/blog/java/2',
+                    '/blog/java/1',
+                ]
+            },
+            {
+                title: 'Java-Spring-Data-Jpa',
+                children: [
+                    '/blog/java-spring-data-jpa/',
+                    '/blog/java-spring-data-jpa/1',
+                ]
+            },
+            {
+                title: 'Linux',
+                children: [
+                    '/blog/linux/',
+                    '/blog/linux/1',
+                ]
+            },
+            {
+                title: 'Nginx',
+                children: [
+                    '/blog/nginx/',
+                    '/blog/nginx/4',
+                    '/blog/nginx/3',
+                    '/blog/nginx/2',
+                    '/blog/nginx/1',
+                ]
+            },
+            {
+                title: 'Python',
+                children: [
+                    '/blog/python/',
+                    '/blog/python/1',
+                ]
+            },
+        ],
+        sidebarDepth: 2,
     },
     plugins: [
         ['@vuepress/back-to-top', true],
@@ -50,9 +117,6 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    themeConfig: {
-    lastUpdated: 'Last Updated', // string | boolean
-    }
 }
 // 日期格式化
 Date.prototype.format = function(format)

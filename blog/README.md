@@ -1,6 +1,7 @@
 ---
 title: 目录
 sidebar: false
+next: ./last.md
 ---
 # 目录
 # [支付宝扫码领红包](../support/)
