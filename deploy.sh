@@ -9,7 +9,7 @@ set -e
 # 生成静态文件
 vuepress build
 # 进入生成的文件夹
-cd .vuepress/dist
+cd public
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 git init
