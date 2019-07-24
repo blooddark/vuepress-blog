@@ -3,6 +3,7 @@ import os
 # 自动生成子目录和最新文章
 
 blogPath = os.listdir('blog')
+lastestArticle = []
 for indexDir in blogPath:
     indexDir = 'blog/' + indexDir
     if os.path.isdir(indexDir):
@@ -22,6 +23,11 @@ for indexDir in blogPath:
             if (mdFile.find('README.md') != -1):
                 readmePath = mdFile
                 continue
+
+            # 获取修改时间确定最新文章
+            modifyTime = os.stat(mdFile).st_mtime
+            print(modifyTime)
+            
             with open(mdFile, 'r', encoding = 'utf8') as fp:
                 line = fp.readline()
                 while line.find('#') == -1:
