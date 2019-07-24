@@ -1,4 +1,7 @@
 import os
+
+# 自动生成子目录和最新文章
+
 blogPath = os.listdir('blog')
 for indexDir in blogPath:
     indexDir = 'blog/' + indexDir
