@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 自动更新目录和最新文章列表
-python3 indexAndLastGenerator.py
+python indexAndLastGenerator.py
 # 保存本项目
 git add -A
 git commit -m update
