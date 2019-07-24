@@ -3,6 +3,7 @@ sidebar: false
 ---
 # 最新
 
+## [使用Nexus搭建Maven私服[java]](java/1.md)
 ## [Nginx Cookbook 分享[nginx]](nginx/4.md)
 ## [运行和控制Nginx[nginx]](nginx/3.md)
 ## [Nginx安装 (CentOS 7.3)[nginx]](nginx/2.md)
