@@ -32,7 +32,7 @@ for indexDir in blogPath:
                 while line.find('#') == -1:
                     line = fp.readline()
                 title = line[2:-1]
-                content.append('## [' + title + '](' + mdFile[mdFile.rfind('/') + 1:] + ')\n')
+                content.insert(7, '## [' + title + '](' + mdFile[mdFile.rfind('/') + 1:] + ')\n')
 
             # 获取修改时间确定最新文章
             modifyTime = os.stat(mdFile).st_mtime
