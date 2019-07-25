@@ -35,7 +35,7 @@ module.exports = {
         repo: 'blooddark/vuepress-blog',
         repoLabel: '查看源码',
         editLinks: true,
-        editLinkText: '帮助我改善此页面！',
+        editLinkText: '帮助我改善此页面',
         sidebar: 'auto',
         sidebar: [
             '/',
@@ -44,6 +44,7 @@ module.exports = {
                 title: '日常',
                 children: [
                     '/blog/diary/',
+                    '/blog/diary/3',
                     '/blog/diary/2',
                     '/blog/diary/1',
                 ]
@@ -103,38 +104,8 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top', true],
         ['@vuepress/active-header-links', true],
-        // ['@vuepress/last-updated',
-        //     {
-        //         transformer: (timestamp, lang) => {
-        //             // 不要忘了安装 moment
-        //             // const moment = require('moment')
-        //             // moment.locale('zh-cn')
-        //             // return moment(timestamp).fromNow()
-        //             return new Date(timestamp).format('yyyy-MM-dd hh:mm:ss')
-        //         }
-        //     }]
     ],
     markdown: {
         lineNumbers: true
     },
-}
-// 日期格式化
-Date.prototype.format = function(format)
-{
-    var o = {
-        "M+" : this.getMonth()+1, //month
-        "d+" : this.getDate(),    //day
-        "h+" : this.getHours(),   //hour
-        "m+" : this.getMinutes(), //minute
-        "s+" : this.getSeconds(), //second
-        "q+" : Math.floor((this.getMonth()+3)/3),  //quarter
-        "S" : this.getMilliseconds() //millisecond
-    }
-    if(/(y+)/.test(format)) format=format.replace(RegExp.$1,
-        (this.getFullYear()+"").substr(4 - RegExp.$1.length));
-    for(var k in o)if(new RegExp("("+ k +")").test(format))
-        format = format.replace(RegExp.$1,
-            RegExp.$1.length==1 ? o[k] :
-                ("00"+ o[k]).substr((""+ o[k]).length));
-    return format;
 }

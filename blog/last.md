@@ -2,6 +2,7 @@
 sidebar: false
 ---
 # 最新
+## [本博客使用说明[diary]](diary/3.md)
 ## [在Maven和Gradle项目中使用Nexus[java]](java/2.md)
 ## [使用Nexus搭建Maven私服[java]](java/1.md)
 ## [Django 官方提出的关于测试代码过多的建议[python]](python/1.md)
