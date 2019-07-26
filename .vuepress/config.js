@@ -44,6 +44,7 @@ module.exports = {
                 title: '日常',
                 children: [
                     '/blog/diary/',
+                    '/blog/diary/4',
                     '/blog/diary/3',
                     '/blog/diary/2',
                     '/blog/diary/1',
@@ -63,6 +64,7 @@ module.exports = {
                 title: 'Java',
                 children: [
                     '/blog/java/',
+                    '/blog/java/3',
                     '/blog/java/2',
                     '/blog/java/1',
                 ]

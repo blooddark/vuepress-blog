@@ -2,12 +2,13 @@
 sidebar: false
 ---
 # 最新
+## [Gradle构建入门[java]](java/3.md)
+## [在Maven和Gradle项目中使用Nexus私服[java]](java/2.md)
 ## [Docker常用命令[docker]](docker/2.md)
 ## [解决WebStorm中文字体问题，分享字体YaHei mono[diary]](diary/4.md)
 ## [Windows 10 中CPU虚拟化已开启，但是docker无法运行[docker]](docker/5.md)
 ## [第一篇博客[diary]](diary/1.md)
 ## [本博客使用说明[diary]](diary/3.md)
-## [在Maven和Gradle项目中使用Nexus[java]](java/2.md)
 ## [使用Nexus搭建Maven私服[java]](java/1.md)
 ## [Django 官方提出的关于测试代码过多的建议[python]](python/1.md)
 ## [Nginx安装 (CentOS 7.3)[nginx]](nginx/2.md)
