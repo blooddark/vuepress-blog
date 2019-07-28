@@ -44,6 +44,7 @@ module.exports = {
                 title: '日常',
                 children: [
                     '/blog/diary/',
+                    '/blog/diary/5',
                     '/blog/diary/4',
                     '/blog/diary/3',
                     '/blog/diary/2',
