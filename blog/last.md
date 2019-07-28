@@ -2,6 +2,7 @@
 sidebar: false
 ---
 # 最新
+## [阮一峰，一张图看懂六种常用开源协议[diary]](diary/5.md)
 ## [Gradle构建入门[java]](java/3.md)
 ## [在Maven和Gradle项目中使用Nexus私服[java]](java/2.md)
 ## [Docker常用命令[docker]](docker/2.md)
