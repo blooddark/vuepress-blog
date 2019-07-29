@@ -2,6 +2,8 @@
 sidebar: false
 ---
 # 最新
+## [Gradle 发布到远程仓库[java]](java/5.md)
+## [Gradle 简单 Task 的创建和使用[java]](java/4.md)
 ## [阮一峰，一张图看懂六种常用开源协议[diary]](diary/5.md)
 ## [Gradle构建入门[java]](java/3.md)
 ## [在Maven和Gradle项目中使用Nexus私服[java]](java/2.md)

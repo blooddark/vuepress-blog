@@ -36,7 +36,6 @@ module.exports = {
         repoLabel: '查看源码',
         editLinks: true,
         editLinkText: '帮助我改善此页面',
-        sidebar: 'auto',
         sidebar: [
             '/',
             '/blog/',
@@ -65,6 +64,8 @@ module.exports = {
                 title: 'Java',
                 children: [
                     '/blog/java/',
+                    '/blog/java/5',
+                    '/blog/java/4',
                     '/blog/java/3',
                     '/blog/java/2',
                     '/blog/java/1',
