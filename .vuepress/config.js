@@ -103,8 +103,14 @@ module.exports = {
                     '/blog/python/1',
                 ]
             },
+            { title: '前端', children: [
+                    '/blog/front-end/',
+                    '/blog/front-end/1',
+                ]
+            },
         ],
-        sidebarDepth: 2,
+
+sidebarDepth: 2,
     },
     plugins: [
         ['@vuepress/back-to-top', true],
