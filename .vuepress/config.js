@@ -26,6 +26,7 @@ module.exports = {
                     { text: 'Linux', link: '/blog/linux/' },
                     { text: 'Docker', link: '/blog/docker/' },
                     { text: 'Nginx', link: '/blog/nginx/' },
+                    { text: '前端', link: '/blog/front-end/' },
                     { text: '日常', link: '/blog/diary/' }
                 ]
             },

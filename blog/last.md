@@ -2,6 +2,7 @@
 sidebar: false
 ---
 # 最新
+## [DataTablesEasy 轻松实现数据表格[front-end]](front-end/1.md)
 ## [Gradle 发布到远程仓库[java]](java/5.md)
 ## [Gradle 简单 Task 的创建和使用[java]](java/4.md)
 ## [阮一峰，一张图看懂六种常用开源协议[diary]](diary/5.md)
