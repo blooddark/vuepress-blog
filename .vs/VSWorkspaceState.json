@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.vuepress",
     "\\blog",
     "\\blog\\docker"
   ],
-  "SelectedNode": "\\blog\\docker\\README.md",
   "PreviewInSolutionExplorer": false
 }
