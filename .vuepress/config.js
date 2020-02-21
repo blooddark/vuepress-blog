@@ -44,7 +44,6 @@ module.exports = {
                 title: '日常',
                 children: [
                     '/blog/diary/',
-                    '/blog/diary/6',
                     '/blog/diary/5',
                     '/blog/diary/4',
                     '/blog/diary/3',
@@ -56,6 +55,7 @@ module.exports = {
                 title: 'Docker',
                 children: [
                     '/blog/docker/',
+                    '/blog/docker/6',
                     '/blog/docker/5',
                     '/blog/docker/4',
                     '/blog/docker/3',
