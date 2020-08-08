@@ -4,7 +4,7 @@ sidebar: false
 next: ./last.md
 ---
 # 目录
-# [支付宝扫码领红包](../support/)
+# [支持](../support/)
 # [最新](last.md)
 # [Python](python/)
 # [Java](java/)
